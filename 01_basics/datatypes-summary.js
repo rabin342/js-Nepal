@@ -31,3 +31,29 @@ console.log("Hello world");
 
 }
 console.log(typeof myFunction );
+
+//--------------------------------------------------------------------------------
+
+
+//  Stack (Primitive), Heap (Non-Primitive)
+let myYoutubename = "Rabinegmi121"
+ let anothername = myYoutubename
+ anothername = "Rabin regmi"
+
+ console.log( anothername);
+ console.log( myYoutubename );
+
+ let userOne = {
+
+    email: "rabin121@gmail.com",
+    upi: "user@bl"
+ }
+  let userTwo = userOne
+
+  userTwo.email = "rabin@gmail.com"
+   console.log(userOne.email);
+   console.log(userTwo.email);
+   
+   
+ 
+ 
