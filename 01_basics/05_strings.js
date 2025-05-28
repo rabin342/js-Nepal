@@ -19,7 +19,7 @@ const name = "Rabin"
 
  const newStringOne = "    RAbin    "
 console.log(newStringOne);
-console.log(newStringOne.trim()); //trim le space hatauxa agadi ko rabin ko jasto
+console.log(newStringOne.trim()); //trim le space hatauxa agadi ko RAbin ko jasto
 
  const url = "https://rabin.com/rabin%30regmi"
  console.log(url.replace('%30', '-'));
